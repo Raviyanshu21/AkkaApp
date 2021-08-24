@@ -3,7 +3,6 @@ package com.example
 import akka.actor.{Actor, ActorSystem, Props}
 import akka.testkit.{ImplicitSender, TestKit}
 import com.AkkaApp.AkkaIntroApp.{PersonDetails, age2, name1}
-import org.scalatest.time.SpanSugar.convertIntToGrainOfTime
 import org.scalatest.{BeforeAndAfterAll, WordSpecLike}
 
 
